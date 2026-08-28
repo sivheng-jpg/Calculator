@@ -8,25 +8,17 @@
 /* Page */
 body {
     min-height: 100vh;
+    width: 100%;
+    margin: 0;
+
     display: flex;
     justify-content: center;
     align-items: center;
 
-    background:
-        linear-gradient(
-            135deg,
-            rgba(0, 0, 0, 0.6),
-            rgba(202, 107, 6, 0.4),
-            rgba(200, 71, 1, 0.5)
-        ),
-        url("img/Tyler.jpg");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    font-family: Arial, sans-serif;
+    background: url("/img/Spidey.gif") center center / cover no-repeat;
 }
+
+
 
 /* Calculator */
 #cal {
