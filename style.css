@@ -12,7 +12,11 @@ body {
     justify-content: center;
     align-items: center;
 
-    background: #f2f2f2;
+    background: linear-gradient(
+    135deg,
+    #000000,
+    #ca6b06,
+    #c84701);
     font-family: Arial, sans-serif;
 }
 
